@@ -1,0 +1,80 @@
+{
+  
+    "products": [
+        
+
+    {
+        "id": 0,
+        "name": "Classic Red Pullover Hoodie",
+        "price": 10,
+        "description": "Elevate your casual wardrobe with our Classic Red Pullover Hoodie.",
+        "photo": "/assets/1twoaDy.jpeg",
+        "category": "Clothes"
+    },
+    {
+        "id": 1,
+        "name": "Classic Comfort Fit Joggers",
+        "price": 1000,
+        "description": "Discover the perfect blend of style and comfort with our Classic Comfort Fit Joggers.",
+        "photo": "/assets/ZKGofuB.jpeg",
+        "category": "Clothes"
+    },
+    {
+        "id": 2,
+        "name": "Classic Navy Blue Baseball Cap",
+        "price": 61,
+        "description": "Step out in style with this sleek navy blue baseball cap",
+        "photo": "/assets/R3iobJA.jpeg",
+        "category": "Clothes"
+    },
+    {
+        "id": 3,
+        "name": "Classic High-Waisted Athletic Shorts",
+        "price": 43,
+        "description": "Stay comfortable and stylish with our Classic High-Waisted Athletic Shorts.",
+        "photo": "/assets/eGOUveI.jpeg",
+        "category": "Clothes"
+    },
+    {
+        "id": 4,
+        "name": "Classic White Tee - Timeless Style and Comfort",
+        "price": 73,
+        "description": "Elevate your everyday wardrobe with our Classic White Tee.",
+        "photo": "/assets/Y54Bt8J.jpeg",
+        "category": "Clothes"
+    },
+    {
+        "id": 5,
+        "name": "Classic Black T-Shirt",
+        "price": 152,
+        "description": "Elevate your everyday style with our Classic Black T-Shirt",
+        "photo": "/assets/9DqEOV5.jpeg",
+        "category": "Clothes"
+    },
+    {
+        "id": 6,
+        "name": "Stylish Red & Silver Over-Ear Headphones",
+        "price": 39,
+        "description": "Immerse yourself in superior sound quality with these sleek red and silver over-ear headphones.",
+        "photo": "/assets/YaSqa06.jpeg",
+        "category": "Tecnology"
+    },
+    {
+        "id": 7,
+        "name": "Sleek Mirror Finish Phone Case",
+        "price": 39,
+        "description": "Enhance your smartphone's look with this ultra-sleek mirror finish phone case",
+        "photo": "/assets/yb9UQKL.jpeg",
+        "category": "Tecnology"
+    },
+    {
+        "id": 8,
+        "name": "Sleek Modern Laptop for Professionals",
+        "price": 270,
+        "description": "Experience cutting-edge technology and elegant design with our latest laptop model",
+        "photo": "/assets/55GM3XZ.jpeg",
+        "category": "Tecnology"
+    }   
+
+    ]
+}
