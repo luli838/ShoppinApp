@@ -63,7 +63,7 @@ import { CommonModule } from '@angular/common';
             valid email}
           </span>
           <button type="submit" class="primary" [disabled]="applyForm.invalid">
-            Apply now
+            Buy now
           </button>
         </form>
       </section>
@@ -85,6 +85,7 @@ export class DetailsComponent {
       Validators.pattern('^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$'),
     ]),
   });
+  submissionMessage: string | null = null;
   constructor() {
     const productDescriptionId = Number(this.route.snapshot.params['id']);
     this.productService
@@ -109,6 +110,15 @@ export class DetailsComponent {
       this.applyForm.value.firstName ?? '',
       this.applyForm.value.lastName ?? '',
       this.applyForm.value.email ?? ''
-    );
+    ).then(() => {
+      // Establecer el mensaje de envío
+      this.submissionMessage = 'Formulario enviado';
+
+      // Blanquear los campos del formulario
+      this.applyForm.reset();
+    }).catch((error) => {
+      // Manejar errores si es necesario
+      console.error('Error al enviar la aplicación', error);
+    });
   }
 }
