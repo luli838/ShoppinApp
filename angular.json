@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "homesapp": {
+    "shoppingapp": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -21,7 +21,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/homesapp",
+            "outputPath": "dist/shoppingapp",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "homesapp:build:production"
+              "buildTarget": "shoppingapp:build:production"
             },
             "development": {
-              "buildTarget": "homesapp:build:development"
+              "buildTarget": "shoppingapp:build:development"
             }
           },
           "defaultConfiguration": "development"
