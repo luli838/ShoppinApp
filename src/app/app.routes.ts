@@ -6,10 +6,10 @@ import { DetailsComponent } from './details/details.component';
 
 export const routes: Routes = [
   { path: '', component: ProductComponent },
-  { path: 'about', component: AboutComponent, title: 'Homesapp | About' },
+  { path: 'about', component: AboutComponent, title: 'ShoppingApp | About' },
   {
     path: 'details/:id',
     component: DetailsComponent,
-    title: 'Homesapp | About',
+    title: 'ShoppingApp | About',
   },
 ];
